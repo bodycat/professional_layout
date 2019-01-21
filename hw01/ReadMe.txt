@@ -17,7 +17,7 @@ https://code.visualstudio.com/
 https://yadi.sk/i/yZkNB89f3ZXpqY
 
 <!-- Regular Expression Language <lang="ru"> -->
-
+https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference
 http://www.pcre.ru/docs/perl/text/intro
     i - не различать строчные и заглавные буквы;
     m - считать строку многострочной;
