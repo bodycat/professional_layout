@@ -6,6 +6,9 @@ The first steps:
 4) Download SRware [look like safari | webkit engine] https://www.srware.net/en/software_srware_iron_download.php
 Get down to work
 
+Teacher:
+Igor Kubikov
+
 Useful links:
 https://fontawesome.com
 https://caniuse.com/
