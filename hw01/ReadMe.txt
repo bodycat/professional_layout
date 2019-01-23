@@ -5,7 +5,8 @@ The first steps:
  2.2) Russian free equivalent: https://www.markupeasy.ru 
                    + tutorial: https://www.youtube.com/watch?v=CQUjRKP2op8
                    + VK group: https://vk.com/markupeasy
-3) Download Sublime Text
+3) Download Sublime Text 3
+ 3.1) Useful plugins for  ST3: https://proglib.io/p/15-sublime-text-plugins/
 4) Download SRware [look like safari | webkit engine] https://www.srware.net/en/software_srware_iron_download.php
 Get down to work
 
