@@ -14,8 +14,9 @@ Teacher:
 Igor Kubikov
 
 Useful links:
-http://www.html-color-names.com/color-chart.php
 https://fontawesome.com
+http://demo.amitjakhu.com/dripicons/
+http://www.html-color-names.com/color-chart.php
 https://caniuse.com/
 https://validator.w3.org/#validate_by_input
 https://www.liveinternet.ru/stat/ru/browsers.html?date=2018-04-01;period=month
