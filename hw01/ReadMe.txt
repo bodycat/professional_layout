@@ -18,6 +18,7 @@ https://fontawesome.com
        <i class="fas fa-shopping-cart"></i>
        <i class="fas fa-caret-down"></i>
        <i class="fas fa-search"></i>
+       http://fontawesome.ru/examples/
 http://www.html-color-names.com/color-chart.php
 https://caniuse.com/
 https://validator.w3.org/#validate_by_input
