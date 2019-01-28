@@ -189,7 +189,6 @@ body {
 .topBannerWrap {
     height: 610px;
     background-color: #e8e8e8;
-
 }
 
 .topBannerContent {
@@ -232,6 +231,264 @@ body {
     letter-spacing: 1px;
     text-decoration: none;
 }
+/*cart*/
+.topNavPanel {
+    height: 148px;
+    background-color: #f8f3f4;
+}
+
+.topNavPanelContent {
+    height: inherit;
+    background-size: 148px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topNavPanelSign1 {
+    /*float: left;*/
+    /*padding-top: 65px; */
+    width: 178px;
+    height: 18px;
+    color: #f16d7f; 
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    padding-left: 234px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.topNavPanelSign2 {
+    width: 200px;
+    height: 18px;
+    color: #636363;
+    /*color: #f16d7f;*/
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-right: 234px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.topNavPanelSign2 a {
+    color: #f16d7f;
+    text-decoration: none;
+}
+/*cart*/
+
+/*shopping*/
+.shoppingCart{
+    margin-top: 100px;
+}
+
+.productName {
+    margin-top: 0;
+    margin-bottom: auto;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/**/
+.cart {
+    height: 623px;
+    padding-top: 90px;
+}
+.cartText {
+    display: grid;
+    grid-template-columns: 500px 140px 140px 140px 140px 140px;
+    font-family: Lato, sans-serif;
+    color:  #222222;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px; 
+}
+.cartLine {
+    border: 1px solid #eaeaea;;
+    box-sizing: border-box;
+    background-color:  #000000;
+    height: 1px;
+    margin-top: 20px;
+}
+.cartProduct1 {
+    padding-top: 22px;
+    display: grid;
+    grid-template-columns: 500px 140px 140px 140px 140px 140px;
+    font-family: Lato, sans-serif;
+    color:  #656565;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.cartPhoto {
+    float: left;
+}
+.cartProduct1Price {
+    padding-left: 20px;
+}
+.cartProduct1FirstText,
+.cartProduct2FirstText,
+.cartProduct3FirstText {
+    font-family: Lato, sans-serif;
+    color:  #222222;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 121px;
+}
+.cartProduct1FirstText {
+    margin-top: 13px;    
+}
+.cartProduct2FirstText {
+    margin-top: 30px;
+    font-family: Lato, sans-serif;
+    color:  #6f6e6e;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.buttom {
+    padding-top: 44px;
+}
+.buttomLeft {
+    float: left;
+    font-family: Lato, sans-serif;
+    color:  #4a4a4a;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid #eaeaea;;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    height: 50px;
+}
+.buttomRight {
+    float: right;
+    font-family: Lato, sans-serif;
+    color:  #4a4a4a;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid #eaeaea;;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    height: 50px;
+}
+.buttomLeft a {
+    text-decoration: none;
+    color: black;
+}
+.buttomRight a {
+    text-decoration: none; 
+    color: black;
+}
+.shippingProcess {
+    padding-top: 63px;
+    display: grid;
+    grid-template-columns: 355px 355px 360px;
+}
+.shippingAdress {
+    height: 268px;
+    float: left;
+}
+.shippingAdressText {
+    font-family: Lato, sans-serif;
+    color:  #222222;
+    font-size: 16px;
+    font-weight: 700;
+}
+.shippingAdressText1 {
+    border: 1px solid #eaeaea;;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    width: 355px;
+    height: 45px;
+    font-family: Lato, sans-serif;
+    color:  #b1b1b1;
+    font-size: 13px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.buttomShiiping {
+    font-family: Lato, sans-serif;
+    color:  #4a4a4a;
+    font-size: 11px;
+    font-weight: 700;
+    border: 1px solid #eaeaea;;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    width: 100px;
+    height: 35px;
+    margin-top: 23px;  
+}
+.buttomShiiping a {
+    text-decoration: none; 
+    color: black;
+}
+.couponDiscount {
+    margin-left: 21px;
+    width: 365px;
+    
+}
+.couponDiscount h2 {
+    font-family: Lato, sans-serif;
+    color:  #222222;
+    font-size: 16px;
+    font-weight: 700;
+}
+.couponDiscount h4 {
+    font-family: Lato, sans-serif;
+    color:  #000000;
+    font-size: 14px;
+    font-weight: 300;
+}
+.grandTotal {
+    background-color:  #f5f3f3;
+    width: 360px;
+    height: 214px;
+    margin-left: 36px;
+    margin-top: 15px
+}
+.grandTotalText {
+    font-family: Lato, sans-serif;
+    color:  #4a4a4a;
+    font-size: 11px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-left: 218px;
+}
+.grandTotalText1 {
+    font-family: Lato, sans-serif;
+    color:  #222222;
+    font-size: 16px;/
+    font-weight: 700;
+    padding-top: 14px;
+    padding-bottom: 40px;
+    padding-left: 123px;
+}
+.grandTotalText1 span {
+    font-family: Lato, sans-serif;
+    color:  #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+}
+.buttomGrandTotal {
+    background-color:  #f16d7f;
+    width: 273px;
+    height: 50px;
+    font-family: Lato, sans-serif;
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 700;   
+    margin-left: 40px
+}
+.buttomGrandTotal a {
+    text-decoration: none; 
+    color: white;
+}
+/**/
+
+/*shopping*/
 
 .offers {
     margin-top: 100px;
