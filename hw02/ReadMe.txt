@@ -1,6 +1,7 @@
 Teacher:
 Igor Kubikov
 
+https://app.avocode.com/revisions/39455368/?design=25813619
 Tip: learn html every day, train
 <!-- CSS <lang="ru"> -->
 Виды каскадных таблиц стилей и их специфика
