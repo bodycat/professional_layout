@@ -1,0 +1,685 @@
+/*подключили гугл шрифты*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+    /*У браузера есть свой css user agent stylesheet*/
+    /*Он даёт отступы (margin по кругу) в 8px, задача - убрать его*/
+    /*В итоге текст не прижимается по краям плотно*/
+body {
+    /*обнуляем user agent stylesheet*/
+    /*с margin:8px до 0*/
+    margin: 0px;
+    /*шрифт по умолчанию*/
+    font-family: 'Lato', sans-serif;
+}
+
+/*
+    Бездумно копировать с avacode нельзя, чистим лишнее
+    Ширину не копируем (макет определенной ширины дизайнера
+/*
+    2 шаг - стиль для шапки
+*/
+.container{
+/*  
+    margin сверху, снизу по 0, боковушки авто
+*/
+    width: 1140px;
+    margin: 0 auto;
+}
+.header{
+/*
+    понадобится высота height
+*/
+    height: 100px;
+    border-bottom: 1px solid #ececec; 
+    /*border-bottom: : 1px solid #ff0000; */
+/* рисуем полосочку шириной 1 пиксель
+   #ff0000 - красный, для проверки полоски
+   border-bottom: : 1px solid #ff0000; 
+   размеры шрифтов в макетах могут не совпадать с реальными значениями
+   пиксель перфект не стоит того, чтобы делать всё идеально в мелочах
+   следуя идеологии пиксель перфект нужно копировать с ошибками
+   по факту исправляем ошибки и делаем как надо
+   прибыли этот гемор никому не принесёт
+*/
+
+}
+.headerInside {
+    /*inherit - унаследуй высоту от родителя
+    headerInside лежит в html внутри контейнера,
+    который лежит внутри хедера
+    у хедера высота 100px, берем те же 100 пикселей от родителя*/
+
+    /*height: inherit;
+    height: 800;*/
+    /*http://www.html-color-names.com/lightgreen.php*/    
+    height: inherit;
+    /*background: lightgreen;*/
+    /*background: #90ee90;    */
+/* 
+    чтобы все элементы, с разными отступами 
+    расположились по центру, будедем использовать флексы
+*/
+    display: flex;
+    /*какая ось основная, какая поперечная. горизонтальная по умолчанию слева направо*/
+    flex-direction: row; 
+    /*можно не пистать, основная ось горизонтальная*/
+    align-items: center;
+}
+.logo {
+    /*ширина*/
+    width: 165px;     
+    /*высота (переделываем в lineheight)*/
+    /*тогда текст окажется посередине блока*/
+    /*height: 51px;*/
+    line-height: 51px;
+    background: url(../images/logo.png) no-repeat;    
+    /*шрифт используется везде по сайту*/
+    /*пропишем его в body*/
+    /*а тут как наследуемое свойство*/
+    /*font-family: 'Lato', sans-serif;*/
+    font-size: 27px;
+    font-weight: 300;
+    /*сам логотип идет как бэкграунд, поэтому мы*/
+    /*делаем padding слева на ширину этого логотипа*/
+    padding-left: 60px;
+} 
+
+.logo span{
+    color: #f16d7f;
+    font-weight: 400;
+}
+
+.searchWrap {
+    /*тут тоже горизонтальное направление*/
+    display: flex;
+    /*элементы встали горизонтально*/
+    align-items: center;    
+    /*по умолчанию по вертикали идет растяжение
+    кнопка, инпут вытягиваются
+    покажем что по поперечной оси они тоже будут свободны*/
+    /*дадим высоту в 40px*/
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    /*border-radius: 3px 0 0 3px;*/
+    border-radius: 3px;
+    /*скроем то, что торчит за её пределами*/
+    /*из browse*/
+    overflow: hidden;
+}
+
+.searchBrowse {
+    height: inherit;
+    /*паддинги можно сжать внутрь*/
+    /*используя следующую конструкцию*/    
+    box-sizing: border-box;
+    /*размеров нет - сжимать не будет*/
+    /*изменим паддинг с 15 до 12 по кругу*/
+    /*задали, подогнали - заработало*/
+    padding: 12px;
+    font-size: 14px;
+    color: #222222;
+    /*косяк с пипеткой в авакоде*/
+    /*background-color: #cdcdcc;*/
+    background-color: #f9f9f9;    
+    /*добавляем бордеры*/
+    border-right: 1px solid #e6e6e6;
+}
+
+.searchWrap input {
+    height: inherit;
+    /*вылез за пределы*/
+    /*смотрим есть ли паддинги, убираем*/
+    /*но справа и слева оставляем*/
+    padding: 0 3px;
+    /*заметили бордеры, которые тоже не нужны*/
+    border: none;
+    outline: none;    
+    letter-spacing: 0.35px;
+    color: #a4a4a4;
+    font-weight: 300;
+}
+
+.searchWrap button {
+    height: inherit;
+    /*паддинги и бордеры убираем*/
+    padding: 0 8px;
+    border: none;
+    background: none;
+    border-left: 1px solid #e6e6e6;
+}
+
+.headerCart {
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.accountBtn {
+  padding: 15px;
+  background-color: #f16d7f;  
+  border: none;
+  color: white;
+  border: none;
+}
+
+.topNav {
+    height: 50px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+/*justify-content: space-between;*/
+/*<nav class="topNav" style="width: 50%; margin: 0 auto;">*/
+}
+
+.topNav a:not(:last-child) {
+    margin-right: 45px;
+}
+
+.topNav a {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #222222;
+    text-decoration: none;
+}
+
+.topNav a:hover {
+    color: #f16d7f;
+}
+
+.topBannerWrap {
+    height: 610px;
+    background-color: #e8e8e8;
+
+}
+
+.topBannerContent {
+    height: inherit;
+    background: url(../images/topHeaderBack.png) no-repeat 554px 0px;
+    background-size: 550px;
+    display: flex;
+    align-items: center;
+}
+
+.topBannerSign {
+    height: 92px;
+    border-left: 12px solid #f16d7f;
+    padding-left: 12px;
+}
+
+.topBannerSign div:first-child {
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: 1.5px;
+    line-height: 41px;
+    /*display: flex;
+    align-items: flex-start;*/
+
+    /*display: table-cell;
+    vertical-align: top;*/
+}
+
+.topBannerSign div:last-child {
+    font-weight: 400;
+    font-size: 40px; 
+    /*регулируем высоту*/
+    line-height: 32px;
+    letter-spacing: 1.5px;  
+    margin-top: 19px;
+}
+
+.topBannerSign div a{
+    color: #f16d7f;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.offers {
+    margin-top: 100px;
+    display: flex;
+    /*сверху вниз*/
+    flex-direction: column;
+    /*если элементы не вмещаются*/
+    /*при построении в строку переносятся в колонки*/
+    flex-wrap: wrap;
+    /*добавим маржин*/
+    /*универсально контент джайстифай*/
+    /*крайние к краям прижмутся*/
+    justify-content: space-between;
+    /*настроим высоту, чтобы уперся*/
+    height: 833px;
+}
+
+
+.offers > div:first-child {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+/*для дивов в оффере позишн релатив*/
+.offers > div {
+    position: relative;
+}
+
+/*для лейбла позишн абсолют*/
+/*потом сюда добавим ещё бонусы*/
+/*надо растягивать по содержимому*/
+/*паддингами*/
+.offers .label {
+    position: absolute;
+    top: 25px;
+    padding: 15px 20px;
+    background: white;
+    text-transform: uppercase;
+}
+
+.labelTop {
+    font-size: 18px;
+    color: #222222;
+    font-weight: 700;
+}
+
+.labelBottom {
+    font-size: 30px;
+    color: #f16d7f;
+    font-weight: 900;
+}
+
+.featuredItemsWrap {
+    margin-top: 100px;
+}
+
+.featuredHead {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.featuredDesc {
+    text-align: center;
+    color: #9f9f9f;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.featuredItems {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.featuredItem {
+    width: 264px;
+    height: 370px;
+}
+
+.featuredItem:hover {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+}
+
+.featuredItem:nth-child(n+5) {
+    margin-top: 27px;
+}
+
+.featuredImgWrap {
+    height: 280px;
+    position: relative;
+}
+
+.featuredBuy {
+    height: inherit;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    position: absolute;
+}
+
+.featuredItem:hover .featuredBuy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featuredBuy button {
+    padding: 15px;
+    border: 1px solid #ffffff;
+    background: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.featuredBuy button img {
+    margin-right: 10px;
+}
+
+.featuredProduct {
+    width: 100%;
+    display: block;
+    height: inherit;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.featuredNameAndPrice {
+    padding: 15px;
+}
+
+.featuredItemName {
+    margin-bottom: 15px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #222222;
+    font-weight: 700;
+    max-height: 2.4em;
+    overflow: hidden;
+}
+
+.featuredItemPrice {
+    color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.featuredAllProductsBtn {
+    padding: 18px 24px;
+    background: #f16d7f;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin: 60px auto 110px;
+}
+
+.featuredAllProductsBtn img {
+    margin-left: 10px;
+}
+
+.offerForWomen {
+    display: flex;
+    height: 530px;
+}
+
+.offerForWomenBanner {
+    flex-shrink: 0;
+    height: inherit;
+    width: 767px;
+    background: url(../images/offerForWomen.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.offerText {
+    position: absolute;
+    top: 146px;
+    left: 40px;
+    color: #ffffff;
+}
+
+.offerText div:first-child {
+    font-size: 54px;
+    font-weight: 700;
+}
+
+.offerText div:first-child span {
+    color: #f16d7f;
+}
+
+.offerText div:last-child {
+    font-size: 32px;
+}
+
+.offerDetails {
+    display: flex;
+    flex-direction: column;
+    background-color: #222224;
+    color: #fbfbfb;
+}
+
+.offerUnit {
+    padding: 30px 30px 30px 110px;
+    flex-grow: 1;
+}
+
+.offerUnit:first-child {
+    background: url(../images/offerDetails1.png) no-repeat 36px 30px;
+}
+
+.offerUnit:nth-child(2) {
+    background: url(../images/offerDetails2.png) no-repeat 36px 30px;
+}
+
+.offerUnit:last-child {
+    background: url(../images/offerDetails3.png) no-repeat 36px 30px;
+}
+
+.offerDetailsHead {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.offerDetailsText {
+    line-height: 24px;
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.subscribeWrap {
+    margin-top: 100px;
+    height: 438px;
+    background: url(../images/subscribe.jpg) no-repeat center bottom, #ccc;
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+.subscribe {
+    display: flex;
+    height: inherit;
+}
+
+.reviews, .subscribeRight {
+    width: calc(100% - 1px);
+}
+
+.reviews {
+    display: flex;
+    align-items: center;
+}
+
+.reviewUnit {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewUnitLeft {
+    width: 83px;
+}
+
+.reviewUnitRight {
+    width: 386px;
+}
+
+.reviewUnitRight blockquote {
+    margin: 0;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.reviewName {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f16d7f;
+}
+
+.reviewFrom {
+    color: #222224;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.reviewsSwitch {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.reviewsSwitch div {
+    width: 38px;
+    height: 4px;
+    background-color: #d6d6d6;
+}
+
+.reviewsSwitch div:hover {
+    background-color: #f16d7f;
+    cursor: pointer;
+}
+
+.subscribeDivider {
+    width: 1px;
+    background: #e3e3e3;
+}
+
+.subscribeRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribeRightHead {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #222224;
+}
+
+.subscribeRightText {
+    margin: 10px 0 35px;
+}
+
+.subscribeForm {
+    height: 46px;
+}
+
+.subscribeForm input {
+    height: inherit;
+    width: 334px;
+    border: none;
+    outline: none;
+    padding: 0 28px;
+    font-weight: 700;
+    background-color: #e1e1e1;
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+    float: left;
+}
+
+.subscribeForm button {
+    background-color: #f16d7f;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+    color: white;
+    border: none;
+    height: inherit;
+    padding: 0 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 100px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footerBrand {
+    width: 427px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #898989;
+}
+
+.footerBrandText1 {
+    margin: 30px 0;
+}
+
+.footerColumn {
+    padding-top: 15px;
+}
+
+.footerColumn h2 {
+    margin: 0 0 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #f16d7f;
+}
+
+.footerColumn a {
+    display: block;
+    color: #898989;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footerColumn a:hover {
+    color: #f16d7f;
+}
+
+.footerColumn a:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.copyrights {
+    height: 80px;
+    background: #e6e6e6;
+}
+
+.copyrightsWrap {
+    margin-top: 100px;
+    color: #7a7a7a;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyrightsRight {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.copyrightsRight a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.copyrightsRight i {
+    width: 32px;
+    height: 32px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.copyrightsRight i:hover {
+    color: white;
+    background: #f16d7f;
+}
