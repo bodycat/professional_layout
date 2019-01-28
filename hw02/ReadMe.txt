@@ -1,6 +1,7 @@
-The second steps:
-1) Tip: learn html every day, train
+Teacher:
+Igor Kubikov
 
+Tip: learn html every day, train
 <!-- CSS <lang="ru"> -->
 Виды каскадных таблиц стилей и их специфика
 
