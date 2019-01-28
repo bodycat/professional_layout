@@ -2,6 +2,7 @@ Links:
 
 koala-app.com
 https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass
+https://ru.bem.info/methodology/
 http://rightblog.ru/2781
 
 
