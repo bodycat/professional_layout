@@ -1,0 +1,314 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Geekbrains</title>
+<!-- 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<!-- 2 создали шапку, добавим стили -->
+	<header class="header">
+		<div class="container headerInside">
+			<div class="logo">
+				BRAN<span>D</span>
+			</div>
+<!-- <div class="searchWrap"> делаем формой -->	
+			<form class="searchWrap">
+			<!-- делаем универсальное оформление, -->
+			<!-- на случай смены количества символов -->
+				<div class="searchBrowse">
+					<!-- иконку возьмем на fontawesome -->
+					Browse <i class="fas fa-caret-down"></i>
+				</div>
+				<!-- placeholder-подсказка -->
+				<input placeholder="Search for Item..." type="	text">
+				<button>
+					<i class="fas fa-search"></i>
+				</button>
+			</form>
+			<p class="headerCart">
+				<!-- <i class="fas fas fa-shopping-cart fa-2x"></i>  -->
+				<img class="headerCart"	src="images/cart.svg" alt="">  
+			</p>
+
+			<button class="accountBtn">
+				My Account 
+				<i class="fas fa-caret-down"></i>
+			</button>
+		</div>
+	</header>	
+    <nav class="topNav">
+        <a href="#">Home</a>
+        <a href="#">Men</a>
+        <a href="#">Women</a>
+        <a href="#">Kids</a>
+        <a href="#">Accessories</a>
+        <a href="#">Fetured</a>
+        <a href="#">Hot Deals</a>
+    </nav>
+    <div class="topNavPanel">
+        <div class="topNavPanelContent">
+            <div class="topNavPanelSign1">
+                NEW ARRIVALS
+            </div>
+            <div class="topNavPanelSign2">
+                HOME / MEN / <a>NEW ARRIVALS</a>
+            </div>
+        </div>
+    </div>
+
+  <!--  -->
+
+   <div class="cart container">
+      <div class="cartText">
+        <div>PRODUCT DETAILS</div>    
+        <div>UNITY PRICE</div>  
+        <div>QUANTITY</div>  
+        <div>SHIPPING</div>  
+        <div>SUBTOTAL</div>  
+        <div>ACTION</div>    
+      </div>
+      <div class="cartLine"></div>
+      <div class="cartProduct1">
+         <div class="cartProduct1First">
+             <div><img class="cartPhoto" src="images/layer_43.png" alt="cartPhoto"></div>
+             <div class="cartProduct1FirstText">MANGO PEOPLE T-SHIRT</div>
+             <div class="cartProduct2FirstText">Color: Red</div>
+             <div class="cartProduct3FirstText">Size: XII</div>
+         </div>
+         <div class="cartProduct1Price">$150</div>
+         <div class="cartProduct1Price">2</div>
+         <div class="cartProduct1Price">FREE</div>
+         <div class="cartProduct1Price">$300</div>
+         <div class="cartProduct1Price"><i class="fas fa-times-circle"></i></div>  
+      </div>
+      <div class="cartLine"></div>
+      <div class="cartProduct1">
+         <div class="cartProduct1First">
+             <div><img class="cartPhoto" src="images/layer_44.png" alt="cartPhoto"></div>
+             <div class="cartProduct1FirstText">MANGO PEOPLE T-SHIRT</div>
+             <div class="cartProduct2FirstText">Color: Red</div>
+             <div class="cartProduct3FirstText">Size: XII</div>
+         </div>
+         <div class="cartProduct1Price">$150</div>
+         <div class="cartProduct1Price">2</div>
+         <div class="cartProduct1Price">FREE</div>
+         <div class="cartProduct1Price">$300</div>
+         <div class="cartProduct1Price"><i class="fas fa-times-circle"></i></div>  
+      </div>
+      <div class="cartLine"></div>
+      <div class="cartProduct1">
+         <div class="cartProduct1First">
+             <div><img class="cartPhoto" src="images/layer_45.png" alt="cartPhoto"></div>
+             <div class="cartProduct1FirstText">MANGO PEOPLE T-SHIRT</div>
+             <div class="cartProduct2FirstText">Color: Red</div>
+             <div class="cartProduct3FirstText">Size: XII</div>
+         </div>
+         <div class="cartProduct1Price">$150</div>
+         <div class="cartProduct1Price">2</div>
+         <div class="cartProduct1Price">FREE</div>
+         <div class="cartProduct1Price">$300</div>
+         <div class="cartProduct1Price"><i class="fas fa-times-circle"></i></div>  
+      </div>
+      <div class="cartLine"></div>
+      <div class="buttom">
+         <button class="buttomLeft">
+             <a href="">CLEAR SHOPPING CART</a>
+         </button>
+         <button class="buttomRight">
+            <a href="">CONTINUE SHOPPING</a>
+         </button> 
+      </div>
+   </div>
+
+<!--     <div class="container shoppingCart">
+        <div class="shoppingGridRow shoppingGridRowHead">            
+            <div class="productPrice">
+                Unite price
+            </div>
+            <div class="productQty">
+                Quantity
+            </div>
+            <div class="productShipping">
+                Shipping
+            </div>
+            <div class="productSubtotal">
+                Subtotal
+            </div>
+            <div class="productAction">
+                Action
+            </div>
+            <section class="shoppingGridRow">
+                <div class="product">
+                    <img src="" alt="">
+                    <div class="productDetails">
+                        <div class="productName">
+                            Mango
+                        </div>
+                        <div class="productColot">
+                            .....
+                        </div>
+                        <div class="productSize">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="productPrice">...</div>
+            </section>
+
+            <section class="shoppingGridRow">
+            
+            </section>
+
+            <section class="shoppingGridRow">
+            
+            </section>
+
+            <section class="shoppingGridRow">
+            
+            </section>
+
+            <section class="shoppingGridRow">
+            
+            </section>
+
+        </div>
+    </div> -->
+
+   <div class="shippingProcess container">
+      <div class="shippingAdress">
+         <h2 class="shippingAdressText">SHIPPING ADRESS</h2>
+         <div class="shippingAdressText1">
+             Moscow
+         </div>
+         <div class="shippingAdressText1">
+             State
+         </div>
+         <div class="shippingAdressText1">
+             Postcode/Zip
+         </div>
+         <button class="buttomShiiping">
+             <a href="">GET A QUOTE</a>
+         </button>
+      </div>
+      <div class="couponDiscount">
+         <h2>COUPON DISCOUNT</h2>
+         <h4>Enter your coupon code if you have one</h4>
+         <div class="shippingAdressText1">
+             State
+         </div>
+         <button class="buttomShiiping">
+             <a href="">APPLY COUPON</a>
+         </button>
+      </div>
+      <div class="grandTotal">
+          <div class="grandTotalText">
+              SUB TOTAL
+          </div>
+          <div class="grandTotalText1">
+              GRAND TOTAL <span>$900</span>
+          </div>
+          <button class="buttomGrandTotal">
+             <a href="">PROCEED TO CHECKOUT</a>
+         </button>
+      </div>
+   </div>
+
+    <div class="subscribeWrap">
+        <div class="container subscribe">
+            <div class="reviews">
+                <div class="reviewUnit">
+                    <div class="reviewUnitLeft">
+                        <img src="images/reviewPerson.png" alt="">
+                    </div>
+                    <div class="reviewUnitRight">
+                        <blockquote>
+                            “Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                            a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”
+                        </blockquote>
+                        <div class="reviewName">
+                            Bin Burhan
+                        </div>
+                        <div class="reviewFrom">
+                            Dhaka, Bd
+                        </div>
+                        <div class="reviewsSwitch">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribeDivider"></div>
+            <div class="subscribeRight">
+                <div class="subscribeRightHead">
+                    Subscribe
+                </div>
+                <div class="subscribeRightText">
+                    FOR OUR NEWLETTER AND PROMOTION
+                </div>
+                <form class="subscribeForm" action="">
+                    <input placeholder="Enter Your Email" type="text">
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="container">
+        <div class="footerBrand">
+            <div class="logo">
+                BRAN<span>D</span>
+            </div>
+            <div class="footerBrandText1">
+                Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate
+                multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of
+                processes and cross-unit partnerships.
+            </div>
+            <div class="footerBrandText2">
+                Efficiently plagiarize 24/365 action items and focused infomediaries.
+                Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+            </div>
+        </div>
+        <div class="footerColumn">
+            <h2>COMPANY</h2>
+            <a href="">Home</a>
+            <a href="">Shop</a>
+            <a href="">About</a>
+            <a href="">How It Works</a>
+            <a href="">Contact</a>
+        </div>
+        <div class="footerColumn">
+            <h2>INFORMATION</h2>
+            <a href="">Tearms & Condition</a>
+            <a href="">Privacy Policy</a>
+            <a href="">How to Buy</a>
+            <a href="">How to Sell</a>
+            <a href="">Promotion</a>
+        </div>
+        <div class="footerColumn">
+            <h2>SHOP CATEGORY</h2>
+            <a href="">Men</a>
+            <a href="">Women</a>
+            <a href="">Kids</a>
+            <a href="">Apparel</a>
+            <a href="">Browse All</a>
+        </div>
+    </footer>
+    <div class="copyrights">
+        <div class="container copyrightsWrap">
+            <div class="copyrightsLeft">
+                &copy; 2019 Brand All Rights Reserved.
+            </div>
+            <div class="copyrightsRight">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                <a href=""><i class="fab fa-pinterest-p"></i></a>
+                <a href=""><i class="fab fa-google-plus-g"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
