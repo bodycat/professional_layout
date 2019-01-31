@@ -1,5 +1,7 @@
 https://getbootstrap.com/docs/4.0/getting-started/introduction/
 https://bootstrap-4.ru/
+https://getbootstrap.com/docs/4.0/layout/overview/
+https://bootstrap-4.ru/docs/4.0/layout/overview/
 http://htmlbook.ru/CSS/background-attachment
 
  Как задать фиксированное фоновое изображение:
