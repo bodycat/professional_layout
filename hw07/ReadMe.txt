@@ -12,3 +12,4 @@ transition-duration:1s; transform: rotate(1turn)
 rotate
 http://fb.ru/article/375728/funktsiya-rotate-v-css-dvumernoe-vraschenie-elementa
 https://html5book.ru/3d-transform/
+https://codepen.io/khizri-tataev/pen/ZwvpLZ
