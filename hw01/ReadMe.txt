@@ -14,6 +14,7 @@ Teacher:
 Igor Kubikov
 
 Useful links:
+https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048
 https://fontawesome.com
        <i class="fas fa-shopping-cart"></i>
        <i class="fas fa-caret-down"></i>
@@ -26,7 +27,7 @@ https://www.liveinternet.ru/stat/ru/browsers.html?date=2018-04-01;period=month
 https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi
 https://flexboxfroggy.com/#ru
 https://code.visualstudio.com/
-https://yadi.sk/i/yZkNB89f3ZXpqY
+https://marketplace.visualstudio.com/VSCode  https://yadi.sk/i/yZkNB89f3ZXpqY
 
 <!-- Regular Expression Language <lang="ru"> -->
 https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference
