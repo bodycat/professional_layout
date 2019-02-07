@@ -3,6 +3,8 @@ Teacher: Igor Kubikov https://mrmlnc.gitbooks.io/less-guidebook-for-beginners/co
 https://htmlacademy.ru/courses/85
 https://htmlacademy.ru/courses/125
 https://geekbrains.ru/events/297
+https://www.npmjs.com/
+https://www.youtube.com/watch?v=vW51JUVT66w&feature=youtu.be
 
 https://nodejs.org/en/
 shift + right click -> shell
