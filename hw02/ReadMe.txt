@@ -1,6 +1,8 @@
 Teacher:
 Igor Kubikov
 
+https://www.w3schools.com/cssref/css_selectors.asp
+https://www.w3schools.com/cssref/trysel.asp
 https://app.avocode.com/revisions/39455368/?design=25813619
 Tip: learn html every day, train
 <!-- CSS <lang="ru"> -->
