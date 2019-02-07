@@ -6,6 +6,7 @@ https://geekbrains.ru/events/297
 https://www.npmjs.com/
 https://www.youtube.com/watch?v=vW51JUVT66w&feature=youtu.be
 http://www.creative-seo.ru/blog/gulp-dlya-nachinayushchih/
+5, 6 уроки курса html5 css3
 
 https://nodejs.org/en/
 shift + right click -> shell
