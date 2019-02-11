@@ -9,6 +9,10 @@ https://puzzleweb.ru/css/pr_animation-fill-mode.php
 SSL
 https://habr.com/en/post/351252/
 
+LESS
+https://mrmlnc.gitbooks.io/less-guidebook-for-beginners/content/
+https://habr.com/ru/post/136525/
+
 social buttons
 transition-duration:1s; transform: rotate(1turn)
 
@@ -28,11 +32,16 @@ https://htmlbook.ru/samlayout/blochnaya-verstka/pozitsionirovanie-elementov
 https://htmlbook.ru/samcss/sposoby-dobavleniya-stiley-na-stranitsu
 https://html5book.ru/html5-semantic-elements/
 https://htmlbook.ru/html/img/align
-https://htmlbook.ru/css/Word-wrap
+https://htmlbook.ru/css/float
+https://htmlbook.ru/css/word-wrap
 https://htmlbook.ru/css/value/media
+https://htmlbook.ru/html/input/src
+http://htmlbook.ru/samhtml5/formy/polzunok
+https://htmlbook.ru/html/%21doctype
 https://htmlbook.ru/CSS/first-child
 https://htmlbook.ru/css/max-width
 https://htmlbook.ru/html/canvas
+https://htmlbook.ru/html/video
 https://htmlbook.ru/html/video/poster
 https://htmlbook.ru/html/main
 https://htmlbook.ru/samlayout/verstka-na-html5/novye-tegi
@@ -63,6 +72,7 @@ https://toster.ru/q/188993
 https://ru.bem.info/forum/931/
 https://learn.javascript.ru/position
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/month
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range
 https://wordyblend.com/sass-peremennie/
 https://front-end.su/2015/11/01/div-or-section-or-article/
 https://noteskeeper.ru/54/
@@ -75,6 +85,7 @@ https://goldbusinessnet.com/uchebnik-css/css-position-absolute-relative-fixed-st
 https://web-now.pro/blog/529-the-most-simple-technology-of-adaptive-layout
 https://stackoverflow.com/questions/20470345/should-the-header-and-footer-tags-be-inside-the-main-tag
 https://ru.stackoverflow.com/questions/390903/%D0%9E%D0%B1%D1%8F%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%BD-%D0%BB%D0%B8-%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D0%B2%D0%B0%D1%8E%D1%89%D0%B8%D0%B9-%D1%82%D0%B5%D0%B3-%D0%BF%D1%80%D0%B8-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8-html5
+https://stackoverflow.com/questions/8762225/how-to-calculate-percentages-in-less-css
 http://vpluce.ru/sozdanie-sajtov/proverka-validnosti-html.html
 http://html-plus.in.ua/psevdo-elements-what-is-before-and-after/
 http://biz-anatomy.ru/vse-stati/sajtostroenie/css-samouchitel/urok-2-podklyuchaem-css-stili-k-html-fajlu
@@ -92,3 +103,7 @@ http://www.java2s.com/Code/HTMLCSS/CSS/FontsizebyEx.htm
 https://www.internet-technologies.ru/articles/svoystvo-font-size.html
 https://ruseller.com/lessons.php?id=2051&rub=1
 http://programmerbook.ru/html/input/type/number/
+http://shpargalkablog.ru/2014/06/input-type-number.html
+https://webliberty.ru/optimizatsiya-css/
+https://medium.com/@stasonmars/%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%D1%8B-%D1%88%D1%80%D0%B8%D1%84%D1%82%D0%BE%D0%B2-css-%D0%BF%D0%B8%D0%BA%D1%81%D0%B5%D0%BB%D0%B8-vs-em-vs-rem-vs-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D0%BD%D1%82%D1%8B-vs-viewport-%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D1%8B-7a24cd792b74
+http://tanalin.com/blog/2011/04/html5-doctype/
