@@ -6,6 +6,9 @@ http://cubic-bezier.com/
 animation-fill-mode
 https://puzzleweb.ru/css/pr_animation-fill-mode.php
 
+SSL
+https://habr.com/en/post/351252/
+
 social buttons
 transition-duration:1s; transform: rotate(1turn)
 
