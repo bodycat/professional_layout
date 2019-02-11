@@ -36,7 +36,7 @@ https://htmlbook.ru/css/float
 https://htmlbook.ru/css/word-wrap
 https://htmlbook.ru/css/value/media
 https://htmlbook.ru/html/input/src
-http://htmlbook.ru/samhtml5/formy/polzunok
+https://htmlbook.ru/samhtml5/formy/polzunok
 https://htmlbook.ru/html/%21doctype
 https://htmlbook.ru/CSS/first-child
 https://htmlbook.ru/css/max-width
