@@ -6,7 +6,9 @@ Igor Kubikov
 
 ПО
 http://instant-eyedropper.com/
+
 https://www.gimp.org/downloads/
+
 https://winscp.net/eng/docs/lang:ru
 
 БЫСТРАЯ НАСТРОЙКА SUBLIME TEXT 3 ДЛЯ РАБОТЫ:
