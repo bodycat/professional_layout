@@ -27,7 +27,7 @@ Preferences - Package Control
 нажать на самую первую надпись.
 
 ПЛАГИНЫ ДЛЯ РАБОТЫ:
-Preferences 0> Package Settings ->
+Preferences > Package Settings ->
 
 Color Hughlighter
 
