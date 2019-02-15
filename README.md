@@ -7,6 +7,7 @@ Igor Kubikov
 БЫСТРАЯ НАСТРОЙКА SUBLIME TEXT 3 ДЛЯ РАБОТЫ:
 
 Установка модулей на Sublime Text 3:
+https://www.youtube.com/watch?v=qlueo6wFikM&feature=youtu.be
 В редакторе жмите Ctrl+ или 
 View -> Show console 
 Если у вас русифицированный Sublime Text 3, то 
@@ -29,13 +30,17 @@ Preferences - Package Control
 ПЛАГИНЫ ДЛЯ РАБОТЫ:
 Preferences > Package Settings ->
 
+BracketHighlighter
+
 Color Highlighter
 
 CSSTidy
 
-Emmet
+Emmet - ускоряет написание HTML и CSS кода до скорости света. 
+Урок по Emmet: https://www.youtube.com/watch?v=RfFtACtO998
 
 HTMLBeautyfy
+Устраняет клингонский акцент в коде.
 
 Package Control
 
@@ -46,7 +51,18 @@ SublimeInSaveBuild
 Tagify
 
 LiveReload
+Позволяет автоматически перезагружать страничку в браузере
 
 SublimeREPL
 
 ColorPicker
+https://www.youtube.com/watch?v=t1xZ0v5pBPY
+
+AutoFileName - дополняет код при написании путей до файлов в вёрстке
+
+Gist - подключает в Sublime Text возможность использовать сервис сниппетов кода GitHub Gist. 
+Урок по Gist: https://www.youtube.com/watch?v=fUUXus8gGk0
+
+Sass - плагин для подсветки Sass синтаксиса в Sass и Scss файлах. Раскрывает Emmet в Sass файлах.
+
+Editorconfig - универсальный конфиг для всех редакторов
