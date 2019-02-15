@@ -22,14 +22,25 @@ EMMET
 нажать на самую первую надпись.
 
 Что надо собрать в Preferences 0> Package Settings ->
+
 Color Hughlighter
+
 CSSTidy
+
 Emmet
+
 HTMLBeautyfy
+
 Package Control
+
 Side Bar
+
 SublimeInSaveBuild
+
 Tagify
+
 LiveReload
+
 SublimeREPL
+
 ColorPicker
