@@ -4,6 +4,11 @@ GeekBrains HTML/CSS
 Teacher:
 Igor Kubikov
 
+ПО
+http://instant-eyedropper.com/
+https://www.gimp.org/downloads/
+https://winscp.net/eng/docs/lang:ru
+
 БЫСТРАЯ НАСТРОЙКА SUBLIME TEXT 3 ДЛЯ РАБОТЫ:
 
 Установка модулей на Sublime Text 3:
@@ -83,5 +88,3 @@ https://habr.com/ru/post/242623/
 
 AngularJS
 Добавляет подсказки при вводе Angular-директив. 
-
-
