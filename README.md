@@ -32,7 +32,7 @@ Preferences > Package Settings ->
 
 BracketHighlighter
 
-Color Highlighter
+ColorHighlight
 
 CSSTidy
 
