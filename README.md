@@ -29,7 +29,7 @@ Preferences - Package Control
 ПЛАГИНЫ ДЛЯ РАБОТЫ:
 Preferences > Package Settings ->
 
-Color Hughlighter
+Color Highlighter
 
 CSSTidy
 
