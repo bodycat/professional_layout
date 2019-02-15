@@ -4,6 +4,8 @@ GeekBrains HTML/CSS
 Teacher:
 Igor Kubikov
 
+РАБОТА НА SUBLIME TEXT 3
+
 Установка модулей на Sublime Text 3:
 В редакторе жмите Ctrl+ или 
 View -> Show console 
@@ -15,7 +17,8 @@ import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe0
 Перезапустить редактор. После установки, Package Control будет доступен в меню 
 Preferences - Package Control
 
-Как ставить плагины.
+УСТАНОВКА ПЛАГИНОВ:
+
 Рассмотрим на плагине Emmet.
 
 Нажать на «Preferences» (Глобальные параметры) или Ctrl + Shift + P и в самом низу кликнуть на Package Control, у вас всплывет окно, нажимайте на «Install Package» (Установить Пакет) на шестой строке.
@@ -23,9 +26,7 @@ Preferences - Package Control
 После этого всплывет еще одно окно где нужно ввести слово «Emmet», появится много предложений и словосочетаний, 
 нажать на самую первую надпись.
 
-ПЛАГИНЫ ДЛЯ РАБОТЫ
-
-Собрать в 
+ПЛАГИНЫ ДЛЯ РАБОТЫ:
 Preferences 0> Package Settings ->
 
 Color Hughlighter
