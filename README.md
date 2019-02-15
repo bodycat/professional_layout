@@ -48,7 +48,10 @@ ColorHighlight
 CSSTidy
 
 Emmet - ускоряет написание HTML и CSS кода до скорости света. 
+
 Урок по Emmet: https://www.youtube.com/watch?v=RfFtACtO998
+
+https://webdesign-master.ru/blog/html-css/2.html
 
 HTMLBeautyfy
 Устраняет клингонский акцент в коде.
