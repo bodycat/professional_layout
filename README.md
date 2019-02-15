@@ -13,3 +13,12 @@ import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe0
 
 После установки, Package Control будет доступен в меню - Preferences - Package Control
 
+СТАВИМ ПЛАГИНЫ:
+
+EMMET
+Нажать на «Preferences» (Глобальные параметры) или Ctrl + Shift + P и в самом низу кликнуть на Package Control, у вас всплывет окно, нажимайте на «Install Package» (Установить Пакет) на шестой строке.
+
+После этого всплывет еще одно окно где нужно ввести слово «Emmet», появится много предложений и словосочетаний, 
+нажать на самую первую надпись.
+
+
