@@ -73,3 +73,16 @@ Editorconfig - универсальный конфиг для всех реда�
 
 Autoprefixer
 https://www.youtube.com/watch?v=HLg2VgFPCFc
+
+JAVA SCRIPT
+
+JS Lint
+https://habr.com/ru/post/242623/
+
+FuncDocr
+Плагин позволяет быстро документировать функции JS.
+
+AngularJS
+Добавляет подсказки при вводе Angular-директив. 
+
+
