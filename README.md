@@ -74,6 +74,8 @@ Editorconfig - универсальный конфиг для всех реда�
 Autoprefixer
 https://www.youtube.com/watch?v=HLg2VgFPCFc
 
+SFTP
+
 JAVA SCRIPT
 
 JS Lint
