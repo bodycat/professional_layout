@@ -4,7 +4,7 @@ GeekBrains HTML/CSS
 Teacher:
 Igor Kubikov
 
-РАБОТА НА SUBLIME TEXT 3
+БЫСТРАЯ НАСТРОЙКА SUBLIME TEXT 3 ДЛЯ РАБОТЫ:
 
 Установка модулей на Sublime Text 3:
 В редакторе жмите Ctrl+ или 
