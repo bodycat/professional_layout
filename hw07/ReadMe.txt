@@ -1,3 +1,5 @@
+Final version with animation in process. Gulp.
+
 Useful links:
 
 One tab
