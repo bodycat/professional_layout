@@ -4,6 +4,9 @@ GeekBrains HTML/CSS
 Teacher:
 Igor Kubikov
 
+Финальная версия сайта будет через год + анимация + JS + PHP. 
+В ближайшее время добавлю анимацию.
+
 ПО
 http://instant-eyedropper.com/
 
