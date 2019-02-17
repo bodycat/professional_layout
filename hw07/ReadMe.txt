@@ -21,6 +21,9 @@ https://habr.com/ru/post/136525/
 social buttons
 transition-duration:1s; transform: rotate(1turn)
 
+Elements
+https://december.com/html/4/element/option.html
+
 rotate
 http://fb.ru/article/375728/funktsiya-rotate-v-css-dvumernoe-vraschenie-elementa
 https://html5book.ru/3d-transform/
@@ -33,12 +36,14 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/grid
 
 SECURITY
 https://www.purplemet.com/
+https://proghub.ru/q/7b835c
 
 MY VISITED LINKS and favorite links:
 https://htmlbook.ru/CSS/padding
 https://htmlbook.ru/samlayout/blochnaya-verstka/pozitsionirovanie-elementov
 https://htmlbook.ru/samcss/sposoby-dobavleniya-stiley-na-stranitsu
 https://html5book.ru/html5-semantic-elements/
+https://htmlbook.ru/samhtml/spiski/markirovannyy-spisok
 https://htmlbook.ru/html/img/align
 https://htmlbook.ru/css/float
 https://htmlbook.ru/css/word-wrap
@@ -49,25 +54,40 @@ https://htmlbook.ru/html/%21doctype
 https://htmlbook.ru/CSS/first-child
 https://htmlbook.ru/css/max-width
 https://htmlbook.ru/html/canvas
+https://htmlbook.ru/css3-na-primerakh/skruglennye-ugolki
 https://htmlbook.ru/html/video
 https://htmlbook.ru/html/video/poster
+https://htmlbook.ru/html/attr/class
+https://htmlbook.ru/css/cat/color
 https://htmlbook.ru/html/main
+https://htmlbook.ru/content/izobrazhenie-v-kachestve-ssylki
+https://htmlbook.ru/faq/kak-ustanovit-tsvet-poseshchennoy-ssylki
 https://htmlbook.ru/samlayout/verstka-na-html5/novye-tegi
 https://htmlbook.ru/samhtml/spiski/numerovannyy-spisok
 https://htmlbook.ru/css/after
 https://htmlbook.ru/css/max-width
+https://htmlbook.ru/samcss/selektory-atributov
+https://htmlbook.ru/css/text-decoration
 https://htmlbook.ru/html/a/name
 https://htmlbook.ru/CSS/FONT
+https://htmlbook.ru/css/font-stretch
+https://htmlbook.ru/css/font-weight
+https://htmlbook.ru/css/font-variant
+https://htmlbook.ru/samhtml5/formy/pole-so-spiskom
 https://htmlbook.ru/html/input/pattern
+https://htmlbook.ru/html/a/tabindex
 https://htmlbook.ru/css/clear
+https://htmlbook.ru/html/select
 https://htmlbook.ru/samcss/psevdoelementy
 https://htmlbook.ru/samhtml5/formy/vvod-chisel
 https://htmlbook.ru/css/first-line
 https://htmlbook.ru/content/edinitsy-izmereniya
+https://htmlbook.ru/faq/kak-sdelat-obtekanie-kartinki-tekstom
 https://htmlbook.ru/samlayout/blochnaya-verstka/strochno-blochnye-elementy
 https://html5book.ru/html5-semantic-elements/
 https://html5book.ru/css3-flexbox/
 https://html5book.ru/block-inline-elements/
+
 https://habr.com/en/post/144003/
 https://habr.com/en/post/154319/
 https://habr.com/en/post/214407/
@@ -78,7 +98,7 @@ https://toster.ru/q/566389
 https://toster.ru/q/461796
 https://toster.ru/q/188993
 https://ru.bem.info/forum/931/
-https://learn.javascript.ru/position
+https://learn.javascript.ru/position   
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/month
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range
 https://wordyblend.com/sass-peremennie/
