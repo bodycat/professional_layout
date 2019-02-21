@@ -1,0 +1,224 @@
+.card-table {
+  width: 100%;
+}
+
+.column-prod-det {
+  width: auto;
+}
+
+.column-unit-price {
+  width: 193px;
+}
+
+.column-quantity {
+  width: 152px;
+}
+
+.column-shipping {
+  width: 141px;
+}
+
+.column-subtotal {
+  width: 136px;
+}
+
+.column-action {
+  width: 72px;
+}
+
+.card-table-headers-row {
+  height: 60px;
+}
+
+.card-table-row {
+  border-bottom: 1px solid #eaeaea;
+  border-top: 1px solid #eaeaea;
+}
+
+.card-table-cell-font {
+  color: #656565;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+}
+
+.card-table-cell-quonity-border {
+  width: 54px;
+  height: 30px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  margin-top: 67.83333px;
+}
+
+.card-table-cell-pd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.card-table-cell-pd-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.card-table-cell-pd-pic {
+  height: 115px;
+  width: 100px;
+}
+
+.card-table-row {
+  height: 165.66667px;
+}
+
+.card-table-header-font {
+  color: #222222;
+  font-weight: 800;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: -0.2px;
+  font-size: 13px;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.centered-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-container {
+  margin-top: 90px;
+}
+
+.card-container-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.grand-total-container {
+  background-color: #f5f3f3;
+  width: 360px;
+  height: 100%;
+}
+
+.grand-total-container-elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+}
+
+.grand-total-container-elements-underline {
+  padding-bottom: 22px;
+  border-bottom: 1px solid #e2e2e2;
+  width: 275px;
+  text-align: right;
+}
+
+.grand-total-container-elements-button {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 19px 42px 18px 42px;
+  background-color: #f16d7f;
+}
+
+.shipping-container {
+  height: 214px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.shipping-container-header-font {
+  color: #222222;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.shipping-container-description-font {
+  color: #4a4a4a;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.shipping-container-input-font {
+  color: #b1b1b1;
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.shipping-container-input {
+  height: 45px;
+  width: 355px;
+  padding: 3px 10px 3px 10px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+}
+
+.shipping-container-button {
+  color: #4a4a4a;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 11px;
+  padding: 12px 17px 13px 18px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+}
+
+.shipping-discount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.shipping-address {
+  width: 355px;
+}
+/*# sourceMappingURL=card.css.map */
