@@ -96,3 +96,35 @@ https://habr.com/ru/post/242623/
 
 AngularJS
 Добавляет подсказки при вводе Angular-директив. 
+
+self-education resources
+Игры для развития навыков [HTML/CSS; JAVASCRIPT/ RUBY/ ASSEMBLER / C]:
+https://flexboxzombies.com/p/flexbox-zombies
+https://flexboxfroggy.com/#ru
+http://cssgridgarden.com/#ru
+http://www.flexboxdefense.com/
+http://www.dungeonsanddevelopers.com/
+https://gridcritters.com/
+https://flukeout.github.io/
+http://fightcodegame.com/
+https://www.tynker.com/parents/
+https://codecombat.com/
+http://play.elevatorsaga.com/
+https://checkio.org/
+https://www.codingame.com/start
+https://www.codewars.com/
+https://alexnisnevich.github.io/untrusted/
+https://gedd.ski/build/overwatch-hero-picker/
+https://gedd.ski/build/zelda/
+http://pixact.ly/
+https://www.playcodemonkey.com/
+https://www.bloc.io/ruby-warrior#/
+http://www.hexinvaders.com/
+http://www.git-game.com/
+https://www.codehunt.com/
+http://www.hacker.org/
+https://screeps.com/
+http://www.zachtronics.com/tis-100/
+https://vim-adventures.com/
+https://www.cyber-dojo.org/
+
